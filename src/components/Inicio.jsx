@@ -11,13 +11,21 @@ const Inicio = () =>{
 
          <div className="inicio-img">
             <div>
-                <div className="tech-icon">
+                <img src="./assets/images/man.png" alt=""/>
+            </div>
+            <div className="tech-icon">
                     <img src="./assets/images/react.png" alt=""/>
 
                 </div>
-                <img src="./assets/images/womens.png"/>
-            </div>
-
+              <div className="tech-icon">
+                 <img src="./assets/images/html.png" alt=""/>
+              </div>
+              <div className="tech-icon">
+                 <img src="./assets/images/css.png" alt=""/>
+              </div>
+              <div className="tech-icon">
+                 <img src="./assets/images/jsp.png" alt=""/>
+              </div>
          </div>
        </section>
     )
