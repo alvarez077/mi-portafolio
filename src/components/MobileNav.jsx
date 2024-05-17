@@ -11,7 +11,7 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
           
           <ul>
                 <li>
-                    <a className="menu-item">Inicio</a>
+                    <a className="menu-item"> Inicio</a>
                </li>
               <li>
                     <a className="menu-item">Habilidades</a>
