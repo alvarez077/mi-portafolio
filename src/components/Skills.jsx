@@ -9,6 +9,7 @@ const Skills = () => {
             <h5>Capacidades técnicas</h5>
 
             <div className="skills-content">
+                <div className="skills">
               
                 {SKILLS.map((item) => (
                    <SkillCard 
@@ -19,7 +20,7 @@ const Skills = () => {
                 ))}
 
                </div>
-               <div className="skills-info">
+               <div className="skills-info"></div>
             </div>
     </section>
         
