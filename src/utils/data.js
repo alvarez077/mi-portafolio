@@ -38,3 +38,37 @@ export const SKILLS = [
         ],
     },
 ];
+
+export const WORK_EXPERIENCE = [
+    {
+        title: "Lorem Ipsum",
+        date: "mayo 2022 - diciembre 2023 ",
+        responsabilities: [
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        ],
+    },
+    {
+        title: "Lorem Ipsum luis",
+        date: "junio 2022 - diciembre 2023 ",
+        responsabilities: [
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        ],
+    },
+    {
+        title: "Lorem Ipsum angel",
+        date: "octubre 2022 - diciembre 2023 ",
+        responsabilities: [
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        ],
+    },
+
+]

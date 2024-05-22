@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from "./components/Navbar";
 import Inicio from "./components/Inicio";
 import Skills from "./components/Skills";
+import WorkExperience from "./components/WorkExperience";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <div className="container">
       <Inicio />
       <Skills />
+      <WorkExperience />
       </div>
     </>
   );
