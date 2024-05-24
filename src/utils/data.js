@@ -70,5 +70,4 @@ export const WORK_EXPERIENCE = [
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         ],
     },
-
 ]
