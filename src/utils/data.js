@@ -28,8 +28,8 @@ export const SKILLS = [
         ],
     },
     {
-        title: "Habilidades de softaware",
-        icon: "./assets/images/tools.png",
+        title: "Habilidades de software",
+        icon: "./assets/images/skills.png",
         skills: [
             { skill: "Resolver Problemas", porcentage: "70%" },
             { skill: "Colaboración", porcentage: "85%" },
