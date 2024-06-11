@@ -10,7 +10,7 @@ const Inicio = () =>{
          </div>
 
          <div className="inicio-img">
-                <img src="./assets/images/man.png" alt=""/>
+                <img src="./assets/images/man" alt=""/>
             <div className="tech-icon">
                     <img src="./assets/images/react.png" alt=""/>
 

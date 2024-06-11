@@ -3,7 +3,7 @@ import "../components/css/ContactoInfoCard.css";
 
 const ContactoInfoCard = ({ iconUrl, text }) => {
     return (
-        <div className="container-details-card">
+        <div className="contact-details-card">
             <div className="icon">
                <img src={iconUrl} alt={text} />
             </div>
