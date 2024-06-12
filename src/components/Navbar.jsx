@@ -37,9 +37,8 @@ const Navbar = () =>{
                     <button class="menu-btn" onClick={toggleMenu}>
                         <span class={"material-symbols-outlined"}
                         style={{ fontSize: "1.8rem" }}>
-<i class='bx bx-menu'></i>
-
-{openMenu ?  " ": <i class='bx bx-x'></i> }
+                             {openMenu ? <i class="bx bx-x-circle"> </i>: 
+                             <i class='bx bx-menu '></i> }
                         </span>
                     </button>
                 </div>
