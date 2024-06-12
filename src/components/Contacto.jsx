@@ -1,6 +1,7 @@
 import React from "react";
 import "../components/css/Contacto.css";
 import ContactoInfoCard from "./ContactoInfoCard";
+import ContactoForm from "./ContactoForm";
 
 const Contacto = () => {
     return (
@@ -16,6 +17,9 @@ const Contacto = () => {
                 <ContactoInfoCard
                  iconUrl="./assets/images/github2.png"
                 text="https://github.com/alvarez077"
+                />
+
+                <ContactoForm 
                 />
                 </div>    
                 <div style={{flex: 1}}></div>
