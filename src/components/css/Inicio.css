@@ -7,8 +7,8 @@
 .inicio-container::after,
 .inicio-container::before{
     content: " ";
-    width: 28.125rem;
-    height: 28.125rem;
+    width: 38.125rem;
+    height: 38.125rem;
     border-radius: 28.125rem;
     background: #6852ba;
     position: absolute;
@@ -95,7 +95,7 @@
 }
 
 .tech-icon img{
-    width: 3rem;
+    width: 3rem; 
     height: auto;
     transition: all 0.3s ease;
 }
@@ -166,6 +166,14 @@
         bottom: 2rem;
         right: 0rem;
     }
+
+    .fade-in-out {
+        position: relative;
+        overflow: hidden;
+        width: 0;
+        height: 100%;
+        animation: fade-in-out 4s infinite;
+    }
 }
 
 @media (max-width: 600px) {
@@ -198,5 +206,18 @@
 
     .tech-icon img {
         width: 2rem;
+    }
+}
+
+@media (max-width: 320px){
+    .inicio-img img {
+        text-align: center;
+        justify-content: center;
+        width: 200px;
+        height: 200px;
+        display: flex;
+        margin-right: 10px;
+        flex-direction: column;
+        align-items: center;
     }
 }

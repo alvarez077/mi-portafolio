@@ -11,7 +11,7 @@ const Inicio = () =>{
          </div>
 
          <div className="inicio-img">
-                <img src="./assets/images/manjpg" alt=""/>
+                <img src="./assets/images/man.jpg" alt=""/>
                 </div>
               <div className="tech-icons">
             <div className="tech-icon">
@@ -28,7 +28,7 @@ const Inicio = () =>{
          </div>
          </div>
        </section>
-    )
-}
+    );
+};
 
 export default Inicio;

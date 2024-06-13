@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import "../components/css/Navbar.css";
 import MobileNav from "./MobileNav";
 
@@ -16,7 +17,6 @@ const Navbar = () =>{
             <nav className="nav-wrapper">
                 <div className="nav-content">
                     <img className="logo" src="./assets/images/logo.png" alt="logo"/>
-
                     <ul>
                         <li>
                             <a className="menu-item">Inicio</a>

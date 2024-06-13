@@ -102,3 +102,28 @@
         padding: 1.5rem;
     }
 }
+
+@media (max-width: 320px){
+    .skills-content {
+        flex-direction: column-reverse;
+        gap: 3rem;
+    }
+
+    .skills,
+    .skills-info {
+        width: 100%;
+    }
+
+    .skills-container h5 {
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .skills-container::after,
+    .skills-container::before {
+        width: 8rem;
+        height: 8rem;
+        flex-direction: column;
+    }
+}
