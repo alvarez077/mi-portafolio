@@ -14,3 +14,15 @@
     gap: 3rem;
     flex-direction: column;
 }
+
+@media (max-width: 768px) {
+    .contact-content {
+        flex-direction: column-reverse;
+    }
+
+    .contact-container h5 {
+        font-size: 1.3rem;
+        margin-bottom: 0rem;
+    }
+}
+
