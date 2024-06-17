@@ -7,8 +7,8 @@
 .inicio-container::after,
 .inicio-container::before{
     content: " ";
-    width: 38.125rem;
-    height: 38.125rem;
+    width: 28.125rem;
+    height: 28.125rem;
     border-radius: 28.125rem;
     background: #6852ba;
     position: absolute;
